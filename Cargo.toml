@@ -6,4 +6,4 @@ authors = ["Andreas Studer <foss@exul.org>"]
 [dependencies]
 diesel = { version = "1.4", default-features = false, features = ["sqlite"]}
 diesel_migrations = { version = "1.4", default-features = false, features = ["sqlite"] }
-ruma-identifiers = { git = "http://github.com/ruma/ruma-identifiers", features = ["diesel"] }
+ruma-identifiers = { git = "http://github.com/exul/ruma-identifiers", features = ["diesel"], branch = "fix-diesel"}
