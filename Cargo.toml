@@ -1,0 +1,9 @@
+[package]
+name = "diesel-min"
+version = "0.1.0"
+authors = ["Andreas Studer <foss@exul.org>"]
+
+[dependencies]
+diesel = { version = "1.4", default-features = false, features = ["sqlite"]}
+diesel_migrations = { version = "1.4", default-features = false, features = ["sqlite"] }
+ruma-identifiers = { git = "http://github.com/ruma/ruma-identifiers", features = ["diesel"] }
